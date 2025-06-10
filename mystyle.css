@@ -1,0 +1,11 @@
+/*hearder*/
+
+.site-header{
+        background-image: url(./img/header.jpg);
+        background-position: center center;
+        background-size: cover;
+        height: 300px;
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
