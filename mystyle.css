@@ -1,0 +1,95 @@
+/*global*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: arial;
+}
+
+p{
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+
+}
+img{
+    max-width: 100%;
+}
+
+/*utilities*/
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+
+}
+
+.btn-details{
+    display: block;
+    background-color: orange;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.text-price{
+    color: rgb(96, 184, 96);
+    font-weight: bold;
+    
+}
+
+/*hearder*/
+
+
+.site-header{
+        background-image: url(./img/header.jpg);
+        height: 300px;
+        background-size: cover;
+        color: white;
+        text-align: center;
+}
+        
+        
+
+.flex-gus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+}
+
+.flex-nicks{
+    background-color: #ffffff;/*colorname,rgb,hex*/
+    width: 200px;
+}
+
+/*about*/
+.about-container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*houses*/
+
+.hosues-container{
+
+}
+
+.houses-item{
+    background-color: #dedede;
+}
+
+.houses-item-text{
+    padding: 20px;
+}
