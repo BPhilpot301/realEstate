@@ -145,6 +145,12 @@ li{
     border: 5px black;
 }
 
+.flex{
+    display: inline-block;
+    flex-direction: row;
+    
+}
+
 
 
 /*hearder*/
