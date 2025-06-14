@@ -21,8 +21,14 @@ a{
 h1{
     color: white;
 }
+
+h3{
+  margin: 10px 0px;
+}
+
 img{
     max-width: 100%;
+    margin-bottom: 20px 0px;
 }
 
 li{
@@ -145,11 +151,7 @@ li{
     border: 5px black;
 }
 
-.flex{
-    display: inline-block;
-    flex-direction: row;
-    
-}
+
 
 
 
@@ -166,3 +168,48 @@ li{
     }
 
     
+/*Tablet View*/
+
+@media((min-width: 601px) and (max-width: 798px)){
+    .about-container{
+        flex-direction: column;
+        text-align: justify;
+    }
+    .about-container div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-container img{
+        width: 20%;
+    }
+    .houses-container{
+        flex-direction: column;
+    }
+    .houses-item{
+        margin: 10px 0px;
+    }
+}
+
+/*Phone View*/
+
+@media((max-width: 600px)){
+     .about-container{
+        flex-direction: column;
+        text-align: justify;
+    }
+    .about-container div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-container img{
+        width: 40%;
+    }
+    .houses-container{
+        flex-direction: column;
+    }
+    .houses-item{
+        margin: 10px 0px;
+    }
+}
