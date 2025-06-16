@@ -1,54 +1,54 @@
 /*global*/
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: arial;
 }
 
-p{
+p {
     line-height: 1.5;
 }
 
-a{
+a {
     text-decoration: none;
 
 }
 
-h1{
+h1 {
     color: white;
 }
 
-h3{
-  margin: 10px 0px;
+h3 {
+    margin: 10px 0px;
 }
 
-img{
+img {
     max-width: 100%;
     margin-bottom: 20px 0px;
 }
 
-li{
+li {
     display: inline-flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space;
-    margin: 40px; 
+    margin: 40px;
 }
 
 
 /*utilities*/
 
-.container{
+.container {
     width: 80%;
     margin: 50px auto;
 
 }
 
-.btn-details{
+.btn-details {
     display: block;
     background-color: orange;
     color: white;
@@ -59,26 +59,26 @@ li{
     text-align: center;
 }
 
-.text-price{
+.text-price {
     color: rgb(96, 184, 96);
     font-weight: bold;
-    
+
 }
 
 /*hearder*/
 
 
-.site-header{
-        background-image: url(./img/header.jpg);
-        height: 300px;
-        background-size: cover;
-        color: white;
-        text-align: center;
+.site-header {
+    background-image: url(./img/header.jpg);
+    height: 300px;
+    background-size: cover;
+    color: white;
+    text-align: center;
 }
-        
-        
 
-.flex-gus{
+
+
+.flex-gus {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -87,30 +87,31 @@ li{
     height: 500px;
 }
 
-.flex-nicks{
-    background-color: #ffffff;/*colorname,rgb,hex*/
+.flex-nicks {
+    background-color: #ffffff;
+    /*colorname,rgb,hex*/
     width: 200px;
 }
 
 /*about*/
-.about-container{
+.about-container {
     display: flex;
     flex-direction: row;
 }
 
-.about-containerflex{
+.about-containerflex {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space;
-        
+
 }
 
 
 
 /*houses*/
 
-.houses-container{
+.houses-container {
     display: flex;
     flex-direction: row;
     justify-content: space;
@@ -118,32 +119,32 @@ li{
     height: 500px;
 }
 
-.houses-item{
+.houses-item {
     background-color: #dedede;
 }
 
-.houses-item-text{
+.houses-item-text {
     padding: 20px;
 }
 
-.icon-container{
+.icon-container {
     display: flex;
     justify-content: space;
 }
 
-.course-card{
+.course-card {
     border-color: white;
     color: black;
     border-radius: 10px;
     padding: 15px;
     margin: 10px;
     width: 470px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: inline-block;
     vertical-align: top;
 }
 
-.section-flex{
+.section-flex {
     display: inline-flex;
     flex-direction: row;
     justify-content: space;
@@ -157,59 +158,67 @@ li{
 
 /*hearder*/
 
-.site-header{
-        background-image: url(./img/header.jpg);
-        background-position: center center;
-        background-size: cover;
-        height: 300px;
-        color: white;
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-    }
+.site-header {
+    background-image: url(./img/header.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-    
+
 /*Tablet View*/
 
-@media((min-width: 601px) and (max-width: 798px)){
-    .about-container{
+@media((min-width: 601px) and (max-width: 798px)) {
+    .about-container {
         flex-direction: column;
         text-align: justify;
     }
-    .about-container div{
+
+    .about-container div {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .about-container img{
+
+    .about-container img {
         width: 20%;
     }
-    .houses-container{
+
+    .houses-container {
         flex-direction: column;
     }
-    .houses-item{
+
+    .houses-item {
         margin: 10px 0px;
     }
 }
 
 /*Phone View*/
 
-@media((max-width: 600px)){
-     .about-container{
+@media((max-width: 600px)) {
+    .about-container {
         flex-direction: column;
         text-align: justify;
     }
-    .about-container div{
+
+    .about-container div {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .about-container img{
+
+    .about-container img {
         width: 40%;
     }
-    .houses-container{
+
+    .houses-container {
         flex-direction: column;
     }
-    .houses-item{
+
+    .houses-item {
         margin: 10px 0px;
     }
 }
