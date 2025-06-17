@@ -1,0 +1,262 @@
+/*global*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial;
+}
+
+p {
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+h1 {
+    color: white;
+}
+
+h3 {
+    margin: 10px 0px;
+}
+
+img {
+    max-width: 100%;
+    margin-bottom: 20px 0px;
+}
+
+li {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space;
+    margin: 40px;
+}
+
+
+/*utilities*/
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+
+}
+
+.btn-details {
+    display: block;
+    background-color: rgb(184, 182, 179);
+    color: white;
+    padding: 5px;
+    width: 20%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.text-price {
+    color: rgb(96, 184, 96);
+    font-weight: bold;
+
+}
+
+/*hearder*/
+
+
+/*hearder*/
+
+.site-header {
+    background-image: url(./img/really\ pretty\ hosue.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.flex-gus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+}
+
+.flex-nicks {
+    background-color: #ffffff;
+    width: 200px;
+}
+
+/*about*/
+.about-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-containerflex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space;
+
+}
+
+.div-flex{
+    display: inline-block;
+    align-items: center;
+    background-color: lightblue;
+
+}
+
+.text-change{
+    text-align: center;
+    color: black;
+}
+
+
+
+/*houses*/
+
+.houses-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space;
+    align-items: center;
+    height: 500px;
+}
+
+.houses-item {
+    background-color: #dedede;
+}
+
+.houses-item-text {
+    padding: 20px;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space;
+}
+
+.course-card {
+    border-color: white;
+    color: black;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    width: 470px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.section-flex {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space;
+    align-items: flex-start;
+    border: 5px black;
+}
+
+.footer-container{
+    background-color: rgb(93, 183, 235);
+    height: 200px;
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-flex{
+    display: flex;
+}
+
+.footer-text p:last-of-type{
+    font-weight: bold;
+    border-left: 3px solid black;
+    padding-left: 20px;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 5px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+/*Tablet View*/
+
+@media((min-width: 601px) and (max-width: 798px)) {
+    .about-container {
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    .about-container div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-container img {
+        width: 20%;
+    }
+
+    .houses-container {
+        flex-direction: column;
+    }
+
+    .houses-item {
+        margin: 10px 0px;
+    }
+}
+
+/*Phone View*/
+
+@media((max-width: 600px)) {
+    .about-container {
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    .about-container div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-container img {
+        width: 40%;
+    }
+
+    .houses-container {
+        flex-direction: column;
+    }
+
+    .houses-item {
+        margin: 10px 0px;
+    }
+}
